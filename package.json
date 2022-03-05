@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce-site",
+  "version": "1.0.0",
+  "description": "A simple fullstack ecommerce site, features including user sign-in, user authentications, order placement and checkout page.\r ## Tech Stack\r ### Frontend: HTML, CSS, JavaScript\r ### Backend: Node.js, Express\r ### MVC pattern",
+  "main": "app.js",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "express": "^4.17.3",
+    "express-art-template": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f2xiao/ecommerce-site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f2xiao/ecommerce-site/issues"
+  },
+  "homepage": "https://github.com/f2xiao/ecommerce-site#readme"
+}
