@@ -2,7 +2,6 @@
 {{block 'title'}}{{title}}{{/block}}
 
 {{block 'head'}}
-    <link rel="stylesheet" href="custom.css">
 {{/block}}
 
 {{block 'content'}}

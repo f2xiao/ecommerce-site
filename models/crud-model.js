@@ -1,6 +1,7 @@
+
 module.exports = {
 
-    createCrud:function(){
+    createCrud: function () {
          data="Form data was inserted";
          return data;
     },
