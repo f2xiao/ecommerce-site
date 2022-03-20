@@ -2,7 +2,7 @@ const crudModel = require('../models/crud-model');
 const { body,validationResult } = require("express-validator");
 
 module.exports={
-    crudForm:function(req, res,next) {
+    readForm:function(req, res,next) {
        res.render('crud-operation');
    },
     createCrud: function (req, res, next) {

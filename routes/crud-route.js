@@ -2,8 +2,8 @@ const express = require('express');
 const crudController=require('../controllers/crud-controller');
 const router = express.Router();
 // curd form route
-router.get('/', crudController.crudForm );
-router.get('/form', crudController.crudForm );
+router.get('/', crudController.readForm );
+router.get('/form', crudController.readForm );
 // create data route
 router.post('/create', crudController.createCrud);
 // display data route
