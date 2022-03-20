@@ -1,8 +1,9 @@
 
 module.exports = {
 
-    createCrud: function () {
-         data="Form data was inserted";
+  createCrud: function (req, res) {
+    // console.log(res.json(req.body));
+    const data = res.json(req.body);
          return data;
     },
     fetchCrud:function(){

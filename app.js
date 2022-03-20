@@ -22,7 +22,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
-app.get('/', function (req, res) {
+app.get('/', function (req, res,next) {
     res.render('index.art', {
         user: {
             name: 'aui',
