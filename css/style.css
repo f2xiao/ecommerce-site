@@ -1,3 +1,11 @@
+:root {
+  --theme-1-bg-color:rgb(233, 239, 255);;
+}
+
+.bg-theme-1{
+  background-color: var(--theme-1-bg-color);
+}
+
 html {
   overflow-x: hidden;
 }
