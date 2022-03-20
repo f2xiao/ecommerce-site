@@ -1,0 +1,90 @@
+img {
+    width: 55%;
+}
+
+input {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+h1 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+h1 a {
+    color: #4E7F6A;
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: rgb(13, 102, 13);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+button a {
+    color:rgb(13, 102, 13);
+    text-transform: uppercase;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+#email {
+    margin: 10px 0 30px 0;
+}
+
+#password {
+    margin: 10px 0 55px 0;
+}
+
+#signin {
+    background-color: rgb(13, 102, 13);
+    border-color: transparent;
+    color: white;
+    text-transform: uppercase;
+}
+
+#signin:hover {
+    background-color: transparent;
+    color:rgb(13, 102, 13);
+    border-color: rgb(13, 102, 13);
+}
+
+.sign-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.sign-in_content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sign-in_form {
+    width: 40%;
+}
+
+.user-input {
+    height: 86%;
+    background-color: rgb(164, 218, 164);
+    border-radius: 10px;
+    padding: 40px;
+}

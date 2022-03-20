@@ -890,3 +890,104 @@ a:focus {
 }
 
 // end footer section
+
+
+
+
+
+
+/* sign in section */
+#sign-in-email {
+  margin: 10px 0 30px 0;
+}
+
+#sign-in-password {
+  margin: 10px 0 55px 0;
+}
+
+#sign-in_btn {
+  background-color: rgb(13, 102, 13);
+  border-color: transparent;
+  color: white;
+  text-transform: uppercase;
+
+  &:hover {
+      background-color: transparent;
+      color:rgb(13, 102, 13);
+      border-color: rgb(13, 102, 13);
+  }
+}
+
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+
+  .sign-in_content {
+      display: flex;
+      justify-content: space-around;
+
+      img {
+          width: 55%;
+      }
+  }
+}
+
+.sign-in_form {
+  width: 40%;
+
+  h1 {
+      margin-bottom: 25px;
+      text-transform: uppercase;
+
+      a {
+          color: #4E7F6A;
+
+          &:hover {
+              text-decoration: none;
+              color: rgb(13, 102, 13);
+          }
+      }
+  }
+}
+
+.user-input {
+  height: 86%;
+  background-color: rgb(164, 218, 164);
+  border-radius: 10px;
+  padding: 40px;
+
+  form {
+      display: flex;
+      flex-direction: column;
+      text-transform: uppercase;
+
+      input {
+          padding: 8px 10px;
+          border-radius: 10px;
+          border: 1px solid white;
+      }
+      
+      button {
+          border: none;
+          background-color: transparent;
+          margin-top: 20px;
+
+          a {
+              color:rgb(13, 102, 13);
+              text-transform: uppercase;
+
+              &:hover {
+                  text-decoration: none;
+                  color: #fff;
+              }
+          }
+      }
+
+  }
+}
+
+/* end sign in section */

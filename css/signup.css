@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(233, 239, 255);
+}
+
+img {
+    width: 55%;
+}
+
+input {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+h1 {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+h1 a {
+    color: rgb(93, 121, 184);
+}
+
+h1 a:hover {
+    text-decoration: none;
+    color: rgb(72, 102, 168);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+button a {
+    color: rgb(93, 121, 184);
+}
+
+button a:hover {
+    text-decoration: none;
+    color: rgb(72, 102, 168);
+}
+
+#email {
+    margin-bottom: 15px;
+}
+
+#password {
+    margin-bottom: 15px;
+}
+
+#confirm {
+    margin-bottom: 30px;
+}
+
+#signup {
+    background-color: rgb(93, 121, 184);
+    border-color: transparent;
+    color: white;
+    text-transform: uppercase;
+}
+
+#signup:hover {
+    background-color: transparent;
+    border-color: rgb(93, 121, 184);
+    color: rgb(93, 121, 184);
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    width: 38%;
+}
